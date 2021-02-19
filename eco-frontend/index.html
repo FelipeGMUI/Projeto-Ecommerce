@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>ejuices | Site Responsivos para Comércio Eletrônico de Sucos</title>
+    <!--===== MAIN JS =====-->
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+
+        <a href="#" class="nav__logo">Shoesplace</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#featured" class="nav__link">Destaque</a>
+            </li>
+            <li class="nav__item">
+              <a href="#basquete" class="nav__link">Basquete</a>
+            </li>
+            <li class="nav__item">
+              <a href="#futebol" class="nav__link">Futebol</a>
+            </li>
+            <li class="nav__item">
+              <a href="#variados" class="nav__link">Esportes variados</a>
+            </li>
+            <li class="nav__item"><a href="#new" class="nav__link">Novidades</a></li>
+            <li class="nav__item"><a href="./shop.html" class="nav__link">Produtos</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__shop">
+          <i class="bx bx-shopping-bag"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+          <div class="home__container bd-grid">
+            <div class="home__juice">
+          
+  
+            <div class="home__data">
+              <p class="home__description">
+                Encontre aqui os melhores tênis esportivos do mercado.
+              </p>
+              <a href="#featured" class="button">Confira agora</a>
+            </div>
+          </div>
+          <!-- <div class="home__juice"> 
+            <div class="t4destaque">
+              <picture>
+                <source media="(max-width: 1023px)" srcset="https://images.lojanike.com.br/hotsitevitrine/ni/0/1613572139/assets/img/mobile/react-infinity-run-2.jpg">
+                  <img class="destaq" 
+                  srcset="https://images.lojanike.com.br/hotsitevitrine/ni/0/1613572139/assets/img/react-infinity-run-2.jpg" alt="Nike React Infinity Run 2"/>
+              </picture>
+          </div>             -->
+      </section>
+
+      <!--===== FEATURED =====-->
+      <section class="featured section" id="featured">
+        <h2 class="section-title">DESTAQUE</h2>
+
+        <div class="featured__container bd-grid">
+        </div>
+      </section>
+      
+      <!--===== COLLECTION =====-->
+    
+
+      <!--===== tropicais juiceS =====-->
+      <section class="tropicais section" id="basquete">
+        <h2 class="section-title">BASQUETE</h2>
+
+        <div class="tropicais__container bd-grid">
+         
+        </div>
+      </section>
+
+      <section class="tropicais section" id="futebol">
+        <h2 class="section-title">FUTEBOL</h2>
+
+        <div class="futebol__container bd-grid">
+         
+        </div>
+      </section>
+      <section class="tropicais section" id="variados">
+        <h2 class="section-title">ESPORTES VARIADOS</h2>
+
+        <div class="variados__container bd-grid">
+         
+        </div>
+      </section>
+
+      <!--===== OFFER =====-->
+      <section class="offer section">
+        <div class="offer__container bd-grid">
+          <div class="offer__data">
+            <h3 class="offer__title"><i>40% OFF</i></h3>
+            <p class="offer__descrition">Linha de basquete</p>
+            <a href="#featured" class="button">Confira já</a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== NEW COLLECTION =====-->
+      <section class="new section" id="new">
+        <h2 class="section-title">NOVA COLEÇÃO</h2>
+
+        <div class="new__container bd-grid">
+          <div class="new__mens">
+            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/29d03616e6714edab785ac84010eba53_9366/Chuteira_Copa_Sense+_Campo_Preto_FW6492_01_standard.jpg" alt="" class="">
+            <h3 class="new__title">Nova chuteira Adidas Copa-sense</h3>
+            <span class="new__price">A partir de R$999.99</span>
+            <a href="#" class="button-light">Veja as opções <i class="bx bx-right-arrow-alt button-icon"></i></a>
+          </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--===== NEWSLETTER =====-->
+      <section class="newsletter section">
+        <div class="newsletter__container bd-grid">
+          <div>
+            <h3 class="newsletter__title">Assine e Receba <br> 10% OFF</h3>
+            <p class="newsletter__description">Ganhe 10% de desconto para todos os produtos</p>
+          </div>
+
+          <form action="" class="newsletter__subscribe">
+            <input type="text" class="newsletter__input" placeholder="@email.com">
+            <a href="#" class="button">Increver</a>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <div class="footer__box">
+          <h3 class="footer__title">Shoesplace</h3>
+          <p class="footer__description">A melhor dos tênis esportivos.</p>
+        </div>
+        
+        <div class="footer__box">
+          <h3 class="footer__title">EXPLORE</h3>
+          <ul>
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#featured" class="footer__link">Destaques</a></li>
+            <li><a href="#basquete" class="footer__link">Basquete</a></li>
+            <li><a href="#futebol" class="footer__link">Futebol</a></li>
+            <li><a href="#variados" class="footer__link">Esportes variados</a></li>
+            <li><a href="#new" class="footer__link">Novidades</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__box">
+          <h3 class="footer__title">+INFORMAÇÕES</h3>
+          <ul>
+            <li><a href="#" class="footer__link">Atendimento ao cliente</a></li>
+            <li><a href="#" class="footer__link">Localização</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__box">
+          <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+          <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+          <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+          <a href="#" class="footer__social"><i class='bx bxl-google'></i></a>
+        </div>
+
+      </div>
+
+      <p class="footer__copy">&#169; 2021 FelipeDev. All right reserved</p>
+    </footer>
+  </body>
+</html>
